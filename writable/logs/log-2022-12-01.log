@@ -1,0 +1,135 @@
+CRITICAL - 2022-12-01 11:43:16 --> Undefined variable: session
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 9, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(45): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:47:29 --> Undefined index: path
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 72, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:11 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:35 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:37 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:39 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:53 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:55 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:57 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:58 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:50:59 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:51:05 --> Undefined index: label
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 78, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Home', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(51): view('Server/Home', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->index()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 13:32:51 --> Cannot declare class App\Models\File, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

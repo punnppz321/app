@@ -1,0 +1,11 @@
+CRITICAL - 2023-04-09 17:07:40 --> Undefined index: HTTP_USER_AGENT
+#0 /home/troxxyz/rebrand.tro-x.xyz/app/Views/Auth/login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/troxxyz/r...', 46, Array)
+#1 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/troxxyz/r...')
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/troxxyz/rebrand.tro-x.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

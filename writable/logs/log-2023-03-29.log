@@ -1,0 +1,104 @@
+CRITICAL - 2023-03-29 02:09:53 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 02:10:04 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 02:10:13 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 02:10:34 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 02:10:40 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 02:10:51 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 02:11:30 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 11:03:30 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 11:03:35 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 11:04:07 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 11:04:19 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 11:17:16 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-29 11:34:45 --> Undefined variable: loopCount
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(507): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 507, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(390): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

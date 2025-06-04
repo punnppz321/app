@@ -1,0 +1,120 @@
+CRITICAL - 2022-11-29 22:04:25 --> Undefined variable: error
+#0 /home/fallenxt/public_html/remblerpro/app/Views/Server/Server.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 175, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/User.php(379): view('Server/Server', Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-29 22:19:17 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:19:41 --> Undefined variable: fname
+#0 /home/fallenxt/public_html/remblerpro/app/Controllers/main.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 30, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-29 22:20:46 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:30:08 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:30:10 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:32:14 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:33:03 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:33:30 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:33:42 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:34:49 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:35:29 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:38:27 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:38:31 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:43:29 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:43:46 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:48:17 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:48:38 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-29 22:51:30 --> Call to a member function getRandomName() on null
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

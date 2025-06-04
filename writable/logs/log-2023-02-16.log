@@ -1,0 +1,13 @@
+ERROR - 2023-02-16 06:20:20 --> Table 'fallenxt_fallenmain.notification' doesn't exist
+CRITICAL - 2023-02-16 06:20:20 --> Table 'fallenxt_fallenmain.notification' doesn't exist
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `no...', 0)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `no...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `no...')
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `no...', Array, false)
+#4 /home/fallenxt/public_html/remblerpro/app/Models/NotifyModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(66): App\Models\NotifyModel->insertText(Array)
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->notify()
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#8 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

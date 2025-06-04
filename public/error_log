@@ -1,0 +1,188 @@
+[22-Jun-2022 16:22:22 UTC] PHP Warning:  require(/home/linuxedu/public_html/FallenXonline/public/../app/Config/Paths.php): failed to open stream: Permission denied in /home/linuxedu/public_html/FallenXonline/public/index.php on line 22
+[22-Jun-2022 16:22:22 UTC] PHP Warning:  require(/home/linuxedu/public_html/FallenXonline/public/../app/Config/Paths.php): failed to open stream: Permission denied in /home/linuxedu/public_html/FallenXonline/public/index.php on line 22
+[22-Jun-2022 16:22:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/linuxedu/public_html/FallenXonline/public/../app/Config/Paths.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/linuxedu/public_html/FallenXonline/public/index.php on line 22
+[22-Jun-2022 16:22:23 UTC] PHP Warning:  require(/home/linuxedu/public_html/FallenXonline/public/../app/Config/Paths.php): failed to open stream: Permission denied in /home/linuxedu/public_html/FallenXonline/public/index.php on line 22
+[22-Jun-2022 16:22:23 UTC] PHP Warning:  require(/home/linuxedu/public_html/FallenXonline/public/../app/Config/Paths.php): failed to open stream: Permission denied in /home/linuxedu/public_html/FallenXonline/public/index.php on line 22
+[22-Jun-2022 16:22:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/linuxedu/public_html/FallenXonline/public/../app/Config/Paths.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/linuxedu/public_html/FallenXonline/public/index.php on line 22
+[24-Jun-2022 17:33:39 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[24-Jun-2022 17:33:51 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[24-Jun-2022 17:36:55 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[24-Jun-2022 17:37:37 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[30-Jun-2022 17:28:44 Asia/Jakarta] PHP Fatal error:  Cannot redeclare App\Controllers\Keys::api_get_keys() in /home/fallenxt/public_html/app/Controllers/Keys.php on line 141
+[30-Jun-2022 17:38:21 Asia/Jakarta] PHP Fatal error:  Cannot redeclare App\Controllers\User::alterUser() in /home/fallenxt/public_html/app/Controllers/User.php on line 130
+[11-Jul-2022 15:09:13 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 8
+[11-Jul-2022 15:09:51 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 9
+[11-Jul-2022 15:10:50 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 14
+[11-Jul-2022 15:11:49 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 14
+[11-Jul-2022 15:12:24 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 14
+[11-Jul-2022 15:12:28 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 14
+[11-Jul-2022 15:13:27 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 14
+[11-Jul-2022 15:13:33 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 14
+[11-Jul-2022 15:14:01 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 8
+[11-Jul-2022 15:14:30 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Users, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 8
+[11-Jul-2022 15:14:33 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Users, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 8
+[11-Jul-2022 15:14:57 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Users, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 8
+[11-Jul-2022 15:15:51 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 8
+[11-Jul-2022 15:18:38 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 13
+[11-Jul-2022 15:20:30 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 13
+[11-Jul-2022 15:23:10 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Controllers\Players, because the name is already in use in /home/fallenxt/public_html/app/Controllers/Player.php on line 12
+[11-Jul-2022 15:57:06 Asia/Jakarta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fallenxt/public_html/app/Controllers/Player.php on line 5
+[11-Jul-2022 16:36:46 Asia/Jakarta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fallenxt/public_html/app/Controllers/Player.php on line 2
+[11-Jul-2022 16:38:07 Asia/Jakarta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fallenxt/public_html/app/Controllers/Player.php on line 2
+[11-Jul-2022 16:38:19 Asia/Jakarta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fallenxt/public_html/app/Controllers/Player.php on line 2
+[11-Jul-2022 19:51:49 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[11-Jul-2022 19:52:11 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[11-Jul-2022 19:53:30 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[11-Jul-2022 19:54:06 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[11-Jul-2022 19:54:28 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[11-Jul-2022 19:54:37 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[11-Jul-2022 19:54:43 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[21-Sep-2022 21:52:53 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 989
+[21-Sep-2022 21:52:53 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[22-Sep-2022 10:03:09 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[22-Sep-2022 10:03:22 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[22-Sep-2022 20:58:20 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[23-Sep-2022 13:30:20 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[23-Sep-2022 13:31:16 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[23-Sep-2022 13:31:33 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[23-Sep-2022 13:31:49 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[23-Sep-2022 13:32:15 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[23-Sep-2022 13:32:30 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[23-Sep-2022 17:58:02 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:35:38 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:39:03 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:39:09 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:39:15 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:39:20 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:39:28 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:39:53 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:40:21 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:40:24 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 15:42:54 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 20:21:06 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[24-Sep-2022 22:16:02 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[25-Sep-2022 13:07:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cmkiezbp/public_html/fallenx.in/app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/cmkiezbp/public_html/fallenx.in/public/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cmkiezbp/public_html/fallenx.in/public/index.php on line 22
+[25-Sep-2022 13:07:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cmkiezbp/public_html/fallenx.in/app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/cmkiezbp/public_html/fallenx.in/public/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cmkiezbp/public_html/fallenx.in/public/index.php on line 22
+[25-Sep-2022 13:07:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cmkiezbp/public_html/fallenx.in/app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/cmkiezbp/public_html/fallenx.in/public/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cmkiezbp/public_html/fallenx.in/public/index.php on line 22
+[25-Sep-2022 20:15:29 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 10:40:50 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Helpers/text_helper.php on line 568
+[27-Sep-2022 11:34:53 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 11:35:14 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 11:35:16 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 13:01:58 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 13:02:38 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 13:02:58 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 13:03:19 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 13:03:42 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 13:04:30 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 15:12:07 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 15:12:13 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 17:20:10 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 19:04:18 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 19:04:28 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[27-Sep-2022 20:05:58 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/cmkiezbp/public_html/fallenx.in/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php on line 132
+[30-Nov-2022 19:25:19 Asia/Jakarta] PHP Fatal error:  Cannot use App\Models\CodeModel as CodeModel because the name is already in use in /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php on line 9
+[30-Nov-2022 19:25:40 Asia/Jakarta] PHP Fatal error:  Cannot use App\Models\UserModel as UserModel because the name is already in use in /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php on line 13
+[30-Nov-2022 19:28:34 Asia/Jakarta] PHP Fatal error:  Cannot use Config\Services as Services because the name is already in use in /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php on line 15
+[30-Nov-2022 19:32:33 Asia/Jakarta] PHP Fatal error:  Cannot use App\Models\UserModel as UserModel because the name is already in use in /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php on line 14
+[30-Nov-2022 19:32:46 Asia/Jakarta] PHP Fatal error:  Cannot use CodeIgniter\Config\Services as Services because the name is already in use in /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php on line 14
+[30-Nov-2022 19:33:00 Asia/Jakarta] PHP Fatal error:  Cannot use CodeIgniter\Controller as Controller because the name is already in use in /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php on line 14
+[01-Dec-2022 13:32:51 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Models\File, because the name is already in use in /home/fallenxt/public_html/remblerpro/app/Models/Memory.php on line 13
+[10-Dec-2022 15:02:33 Asia/Jakarta] PHP Fatal error:  Cannot redeclare App\Controllers\Keyz::resetAllKeyz() in /home/fallenxt/public_html/remblerpro/app/Controllers/Keyz.php on line 180

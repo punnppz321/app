@@ -1,0 +1,8 @@
+CRITICAL - 2022-10-18 01:04:53 --> Undefined variable: idKeys
+#0 /home/fallenx1/public_html/technicaljet.tech/app/Controllers/Keys.php(506): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenx1/...', 506, Array)
+#1 /home/fallenx1/public_html/technicaljet.tech/app/Controllers/Keys.php(342): App\Controllers\Keys->generate_action()
+#2 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenx1/public_html/technicaljet.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

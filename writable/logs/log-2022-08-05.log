@@ -1,0 +1,9 @@
+CRITICAL - 2022-08-05 14:07:01 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

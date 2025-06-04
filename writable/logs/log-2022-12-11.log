@@ -1,0 +1,28 @@
+CRITICAL - 2022-12-11 19:55:34 --> Use of undefined constant key - assumed 'key' (this will throw an Error in a future version of PHP)
+#0 /home/fallenxt/public_html/remblerpro/app/Controllers/Keys.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/fallenxt/...', 141, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->extendTime()
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-11 19:56:16 --> Use of undefined constant key - assumed 'key' (this will throw an Error in a future version of PHP)
+#0 /home/fallenxt/public_html/remblerpro/app/Controllers/Keys.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/fallenxt/...', 141, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->extendTime()
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-11 20:20:22 --> Undefined property: App\Controllers\Memo::$input
+#0 /home/fallenxt/public_html/remblerpro/app/Controllers/Memo.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fallenxt/...', 48, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Memo->extendTime()
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memo))
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-11 20:22:29 --> Undefined property: App\Controllers\Memo::$input
+#0 /home/fallenxt/public_html/remblerpro/app/Controllers/Memo.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fallenxt/...', 48, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Memo->extendTime()
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memo))
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

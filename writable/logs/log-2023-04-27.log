@@ -1,0 +1,90 @@
+ERROR - 2023-04-27 04:56:48 --> Unknown column 'key_reset_time' in 'where clause'
+CRITICAL - 2023-04-27 04:56:48 --> Unknown column 'key_reset_time' in 'where clause'
+#0 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /home/troxxyz/rebrand.tro-x.xyz/app/Models/KeyzModel.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keyz.php(134): App\Models\KeyzModel->API_getKeyz()
+#8 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keyz->api_get_keyz()
+#9 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keyz))
+#10 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/troxxyz/rebrand.tro-x.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-04-27 04:56:51 --> Unknown column 'key_reset_time' in 'where clause'
+CRITICAL - 2023-04-27 04:56:51 --> Unknown column 'key_reset_time' in 'where clause'
+#0 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /home/troxxyz/rebrand.tro-x.xyz/app/Models/KeyzModel.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keyz.php(134): App\Models\KeyzModel->API_getKeyz()
+#8 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keyz->api_get_keyz()
+#9 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keyz))
+#10 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/troxxyz/rebrand.tro-x.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-04-27 04:56:55 --> Unknown column 'key_reset_time' in 'where clause'
+CRITICAL - 2023-04-27 04:56:55 --> Unknown column 'key_reset_time' in 'where clause'
+#0 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /home/troxxyz/rebrand.tro-x.xyz/app/Models/KeyzModel.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keyz.php(134): App\Models\KeyzModel->API_getKeyz()
+#8 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keyz->api_get_keyz()
+#9 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keyz))
+#10 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/troxxyz/rebrand.tro-x.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-04-27 04:56:56 --> Unknown column 'key_reset_time' in 'where clause'
+CRITICAL - 2023-04-27 04:56:56 --> Unknown column 'key_reset_time' in 'where clause'
+#0 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /home/troxxyz/rebrand.tro-x.xyz/app/Models/KeyzModel.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keyz.php(134): App\Models\KeyzModel->API_getKeyz()
+#8 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keyz->api_get_keyz()
+#9 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keyz))
+#10 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/troxxyz/rebrand.tro-x.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-04-27 04:57:00 --> Unknown column 'key_reset_time' in 'where clause'
+CRITICAL - 2023-04-27 04:57:00 --> Unknown column 'key_reset_time' in 'where clause'
+#0 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /home/troxxyz/rebrand.tro-x.xyz/app/Models/KeyzModel.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keyz.php(134): App\Models\KeyzModel->API_getKeyz()
+#8 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keyz->api_get_keyz()
+#9 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keyz))
+#10 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/troxxyz/rebrand.tro-x.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-04-27 04:57:01 --> Unknown column 'key_reset_time' in 'where clause'
+CRITICAL - 2023-04-27 04:57:01 --> Unknown column 'key_reset_time' in 'where clause'
+#0 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/troxxyz/rebrand.tro-x.xyz/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /home/troxxyz/rebrand.tro-x.xyz/app/Models/KeyzModel.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keyz.php(134): App\Models\KeyzModel->API_getKeyz()
+#8 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keyz->api_get_keyz()
+#9 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keyz))
+#10 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/troxxyz/rebrand.tro-x.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

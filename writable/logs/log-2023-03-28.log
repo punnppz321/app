@@ -1,0 +1,52 @@
+CRITICAL - 2023-03-28 18:20:38 --> Class 'App\Models\BTShow' not found
+#0 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Memo->__construct()
+#1 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-28 18:22:30 --> Class 'App\Models\KeyzModel' not found
+#0 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keyz->__construct()
+#1 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-28 18:56:42 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-28 18:59:15 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-28 19:02:28 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-28 22:41:32 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-28 23:36:40 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/shenling.tk/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/shenling.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/shenling.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

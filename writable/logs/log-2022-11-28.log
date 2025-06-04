@@ -1,0 +1,58 @@
+CRITICAL - 2022-11-28 13:14:50 --> syntax error, unexpected '<'
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/fallenxt/...')
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 13:14:53 --> syntax error, unexpected '<'
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/fallenxt/...')
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 13:16:05 --> syntax error, unexpected '<'
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/fallenxt/...')
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 13:30:15 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/fallenxt/...')
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 13:46:30 --> syntax error, unexpected '}', expecting end of file
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#2 /home/fallenxt/public_html/remblerpro/app/Controllers/User.php(360): view('Server/Server', Array)
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-28 13:47:38 --> Invalid file: users.php
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('users', Array, true)
+#2 /home/fallenxt/public_html/remblerpro/app/Controllers/FileUpload.php(28): view('users', Array)
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\FileUpload->upload()
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

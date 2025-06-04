@@ -1,0 +1,152 @@
+CRITICAL - 2023-03-26 09:41:16 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:41:22 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:42:27 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:42:33 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:06 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:10 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:11 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:12 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:26 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:33 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:41 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:53 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:54 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:55 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:43:57 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:44:01 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:44:37 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:45:50 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-26 09:46:38 --> Table 'fallenxt_fallenmain.modname' doesn't exist
+#0 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(240): mysqli_query(Object(mysqli), 'select * from m...')
+#1 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

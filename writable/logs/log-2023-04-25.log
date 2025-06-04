@@ -1,0 +1,8 @@
+CRITICAL - 2023-04-25 02:51:51 --> Undefined variable: idKeys
+#0 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/troxxyz/r...', 547, Array)
+#1 /home/troxxyz/rebrand.tro-x.xyz/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/troxxyz/rebrand.tro-x.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/troxxyz/rebrand.tro-x.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

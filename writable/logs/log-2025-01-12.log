@@ -1,0 +1,365 @@
+CRITICAL - 2025-01-12 11:44:11 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Validation/FormatRules.php(253): strtolower()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic()
+#9 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Auth.php(27): session()
+#10 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#11 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-01-12 11:44:12 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Validation/FormatRules.php(253): strtolower()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic()
+#9 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Auth.php(27): session()
+#10 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#11 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-01-12 11:44:35 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Validation/FormatRules.php(253): strtolower()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic()
+#9 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Auth.php(27): session()
+#10 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#11 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-01-12 11:44:41 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Validation/FormatRules.php(253): strtolower()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic()
+#9 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Auth.php(27): session()
+#10 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#11 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-01-12 11:44:49 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Validation/FormatRules.php(253): strtolower()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic()
+#9 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Auth.php(27): session()
+#10 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#11 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-01-12 11:50:05 --> Call to a member function getName() on null
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-12 11:51:19 --> shell_exec() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec() ha...', '/home/ejmkzbae/...', 158, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(158): shell_exec('objdump -p $fil...')
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-01-12 11:52:26 --> shell_exec() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec() ha...', '/home/ejmkzbae/...', 158, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(158): shell_exec('objdump -p $fil...')
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-01-12 11:53:07 --> shell_exec() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec() ha...', '/home/ejmkzbae/...', 158, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(158): shell_exec('objdump -p $fil...')
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-01-12 11:54:03 --> shell_exec() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec() ha...', '/home/ejmkzbae/...', 158, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(158): shell_exec('objdump -p $fil...')
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-01-12 11:59:33 --> shell_exec() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec() ha...', '/home/ejmkzbae/...', 158, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(158): shell_exec('objdump -p $fil...')
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-01-12 12:01:17 --> shell_exec() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec() ha...', '/home/ejmkzbae/...', 158, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(158): shell_exec('objdump -p $fil...')
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-01-12 12:09:14 --> Undefined index: uploadtime
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Views/update/FileDashboard.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 62, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ejmkzbae/...')
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('update/FileDash...', Array, true)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(60): view('update/FileDash...', Array)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->Show()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-12 12:12:07 --> Undefined variable: data
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ejmkzbae/...', 78, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->DeleteFiles()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 12:38:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::exec()
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-12 12:40:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::empty_table()
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-12 12:41:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::empty_table()
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-12 12:46:22 --> Undefined property: App\Controllers\Main::$load
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ejmkzbae/...', 30, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Main->__construct()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 12:46:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::empty_table()
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Main->__construct()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-12 12:50:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::truncate()
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-12 12:58:58 --> Undefined variable: file
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:00:42 --> Undefined index: name
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:03:19 --> Undefined variable: files
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:03:52 --> Undefined index: name
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:04:15 --> Undefined index: name
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:05:13 --> Undefined index: name
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:06:39 --> Undefined index: version
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 94, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:06:48 --> A non-numeric value encountered
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/ejmkzbae/...', 95, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:07:07 --> syntax error, unexpected '.'
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ejmkzbae/...')
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-12 13:07:22 --> syntax error, unexpected '$namemm' (T_VARIABLE), expecting ']'
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ejmkzbae/...')
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-12 13:07:48 --> syntax error, unexpected ''http://libbb.freewebhostmost.' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ejmkzbae/...')
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-12 13:08:44 --> Undefined index: name
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:10:00 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ejmkzbae/...')
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-12 13:10:15 --> Trying to get property 'version' of non-object
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:10:33 --> Function name must be a string
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-12 13:10:51 --> Array and string offset access syntax with curly braces is deprecated
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ejmkzbae/...')
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 [internal function]: spl_autoload_call('App\\Controllers...')
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#8 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-12 13:11:44 --> Undefined index: version
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 92, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:14:50 --> Undefined index: name
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ejmkzbae/...', 93, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:15:28 --> A non-numeric value encountered
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/ejmkzbae/...', 96, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-12 13:18:37 --> syntax error, unexpected 'name' (T_STRING), expecting ']'
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ejmkzbae/...')
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-12 13:19:01 --> syntax error, unexpected '$file' (T_VARIABLE), expecting ']'
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ejmkzbae/...')
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-12 13:19:12 --> A non-numeric value encountered
+#0 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/app/Controllers/Main.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/ejmkzbae/...', 96, Array)
+#1 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->download()
+#2 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#3 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ejmkzbae/domains/libbb.freewebhostmost.com/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,21 @@
+CRITICAL - 2023-02-05 21:49:02 --> Invalid file: Update/FileDashboard.php
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Update/FileDash...')
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Update/FileDash...', Array, true)
+#2 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(56): view('Update/FileDash...', Array)
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->Show()
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-02-05 21:50:39 --> Unknown column 'name' in 'field list'
+CRITICAL - 2023-02-05 21:50:39 --> Unknown column 'name' in 'field list'
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(112): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Main->upload()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#7 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

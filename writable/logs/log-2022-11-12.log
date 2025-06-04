@@ -1,0 +1,22 @@
+CRITICAL - 2022-11-12 23:07:59 --> Undefined index: HTTP_USER_AGENT
+#0 /home/fallenxt/public_html/fallenx/app/Views/Auth/login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 32, Array)
+#1 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/fallenxt/public_html/fallenx/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/fallenx/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-12 23:08:01 --> Undefined index: HTTP_USER_AGENT
+#0 /home/fallenxt/public_html/fallenx/app/Views/Auth/login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 32, Array)
+#1 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/fallenxt/public_html/fallenx/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/fallenxt/public_html/fallenx/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/fallenx/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

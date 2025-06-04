@@ -1,0 +1,30 @@
+CRITICAL - 2022-07-13 13:50:32 --> View themes, no current section.
+#0 /home/fallenxt/public_html/app/Views/Auth/login.php(74): CodeIgniter\View\View->endSection()
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/fallenxt/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 16:13:43 --> Undefined variable: category
+#0 /home/fallenxt/public_html/app/Views/Player/player_list.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 74, Array)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Player/player_l...', Array, true)
+#4 /home/fallenxt/public_html/app/Controllers/Player.php(32): view('Player/player_l...', Array)
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Player->index()
+#6 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player))
+#7 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 16:30:21 --> Use of undefined constant none - assumed 'none' (this will throw an Error in a future version of PHP)
+#0 /home/fallenxt/public_html/app/Models/HistoryModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/fallenxt/...', 14, Array)
+#1 /home/fallenxt/public_html/app/Controllers/User.php(36): App\Models\HistoryModel->getAll()
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

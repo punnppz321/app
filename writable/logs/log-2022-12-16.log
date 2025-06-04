@@ -1,0 +1,65 @@
+CRITICAL - 2022-12-16 22:16:14 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-16 22:39:32 --> A non-numeric value encountered
+#0 /home/fallenxt/public_html/publicmod/app/Helpers/nata_helper.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/fallenxt/...', 85, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(415): getPrice(Array, '1', '', 'Select Keys')
+#2 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-16 22:39:45 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-16 22:40:29 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-16 22:45:08 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-16 22:53:53 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-16 22:54:00 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-16 22:54:06 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 547, Array)
+#1 /home/fallenxt/public_html/publicmod/app/Controllers/Keys.php(383): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/publicmod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/publicmod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,9 @@
+CRITICAL - 2023-02-26 20:20:06 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/mod/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_fallen...', 'fallenxt_fallen...', 'fallenxt_fallen...')
+#2 /home/fallenxt/public_html/mod/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/mod/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/mod/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2022-12-31 00:16:08 --> You must set the database table to be used with your query.
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Model.php(688): CodeIgniter\Model->builder()
+#2 /home/fallenxt/public_html/remblerpro/app/Models/File.php(11): CodeIgniter\Model->__get('load')
+#3 /home/fallenxt/public_html/remblerpro/app/Controllers/Main.php(21): App\Models\File->__construct()
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Main->__construct()
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

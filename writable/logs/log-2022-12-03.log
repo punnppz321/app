@@ -1,0 +1,16 @@
+CRITICAL - 2022-12-03 17:39:53 --> syntax error, unexpected end of file, expecting ';' or ','
+#0 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keyz/listz', Array, true)
+#2 /home/fallenxt/public_html/remblerpro/app/Controllers/Keyz.php(65): view('Keyz/listz', Array)
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keyz->index()
+#4 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keyz))
+#5 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-03 22:18:29 --> Undefined variable: data
+#0 /home/fallenxt/public_html/remblerpro/app/Controllers/Keys.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 145, Array)
+#1 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->resetAllKeys()
+#2 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/fallenxt/public_html/remblerpro/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/remblerpro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

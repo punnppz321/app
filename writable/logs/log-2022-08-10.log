@@ -1,0 +1,91 @@
+CRITICAL - 2022-08-10 18:03:40 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-10 23:01:02 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-10 23:01:03 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-08-10 23:01:05 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-08-10 23:01:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/linuxedu/public_html/fallenx.tech/app/Models/KeysModel.php(26): CodeIgniter\Model->__call('get', Array)
+#4 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(185): App\Models\KeysModel->getKeysGame(Array)
+#5 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#6 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#8 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-10 23:01:06 --> Too many connections
+#0 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(237): include('/home/linuxedu/...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-10 23:01:08 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-10 23:01:09 --> Too many connections
+#0 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(237): include('/home/linuxedu/...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-10 23:01:11 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/fallenx.tech/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_fallen...', 'linuxedu_fallen...', 'linuxedu_fallen...')
+#2 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-08-10 23:01:12 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-08-10 23:01:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/linuxedu/public_html/fallenx.tech/app/Models/KeysModel.php(26): CodeIgniter\Model->__call('get', Array)
+#4 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(185): App\Models\KeysModel->getKeysGame(Array)
+#5 /home/linuxedu/public_html/fallenx.tech/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#6 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#8 /home/linuxedu/public_html/fallenx.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxedu/public_html/fallenx.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

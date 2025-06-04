@@ -1,0 +1,38 @@
+CRITICAL - 2022-09-19 14:18:54 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/fallenx1/public_html/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 /home/fallenx1/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-09-19 15:35:36 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-09-19 15:35:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Validation/Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('OffensiveJangra', 'username', Array, NULL)
+#4 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('username', 'username', 'OffensiveJangra', Array, Array)
+#5 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/fallenx1/public_html/app/Controllers/Auth.php(77): CodeIgniter\Controller->validate(Array)
+#7 /home/fallenx1/public_html/app/Controllers/Auth.php(31): App\Controllers\Auth->login_action()
+#8 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/fallenx1/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-19 23:02:57 --> Undefined variable: idKeys
+#0 /home/fallenx1/public_html/technicaljet.tech/app/Controllers/Keys.php(506): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenx1/...', 506, Array)
+#1 /home/fallenx1/public_html/technicaljet.tech/app/Controllers/Keys.php(342): App\Controllers\Keys->generate_action()
+#2 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenx1/public_html/technicaljet.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-19 23:04:00 --> Undefined variable: idKeys
+#0 /home/fallenx1/public_html/technicaljet.tech/app/Controllers/Keys.php(506): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenx1/...', 506, Array)
+#1 /home/fallenx1/public_html/technicaljet.tech/app/Controllers/Keys.php(342): App\Controllers\Keys->generate_action()
+#2 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenx1/public_html/technicaljet.tech/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenx1/public_html/technicaljet.tech/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

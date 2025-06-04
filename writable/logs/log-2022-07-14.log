@@ -1,0 +1,306 @@
+CRITICAL - 2022-07-14 02:11:39 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 457, Array)
+#1 /home/fallenxt/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-14 02:11:45 --> Undefined variable: idKeys
+#0 /home/fallenxt/public_html/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fallenxt/...', 457, Array)
+#1 /home/fallenxt/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-14 14:02:13 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:02:20 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:02:23 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:02:26 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:02:41 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:02:47 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:02:53 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:03:22 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:03:24 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:03:27 --> Too many connections
+#0 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#1 /home/fallenxt/public_html/app/Controllers/Connect.php(237): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:03:29 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:03:31 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:08:30 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 16:03:27 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/fallenxt/...')
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-14 16:06:34 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-07-14 16:06:34 --> Unknown column 'id' in 'where clause'
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `us...', 0)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 /home/fallenxt/public_html/app/Controllers/User.php(136): CodeIgniter\BaseModel->delete()
+#7 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete('1')
+#8 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-14 16:08:20 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-07-14 16:08:20 --> Unknown column 'id' in 'where clause'
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `us...', 0)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 /home/fallenxt/public_html/app/Controllers/User.php(137): CodeIgniter\BaseModel->delete()
+#7 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete('1')
+#8 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-14 16:08:51 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-07-14 16:08:51 --> Unknown column 'id' in 'where clause'
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `us...', 0)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 /home/fallenxt/public_html/app/Controllers/User.php(137): CodeIgniter\BaseModel->delete()
+#7 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete('1')
+#8 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-14 16:15:28 --> Undefined property: App\Controllers\User::$uri
+#0 /home/fallenxt/public_html/app/Controllers/User.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fallenxt/...', 137, Array)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete('1')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 16:16:19 --> Undefined property: App\Controllers\User::$uri
+#0 /home/fallenxt/public_html/app/Controllers/User.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fallenxt/...', 137, Array)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete('1')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 16:18:10 --> Too few arguments to function App\Controllers\User::singleDelete(), 0 passed in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete()
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-14 16:20:33 --> Too few arguments to function App\Controllers\User::singleDelete(), 0 passed in /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete()
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-14 16:21:32 --> Undefined index: id
+#0 /home/fallenxt/public_html/app/Controllers/User.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 137, Array)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete('$1')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 16:22:35 --> Undefined index: num
+#0 /home/fallenxt/public_html/app/Controllers/User.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fallenxt/...', 138, Array)
+#1 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->singleDelete('$1')
+#2 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 17:03:15 --> Too many connections
+#0 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#1 /home/fallenxt/public_html/app/Controllers/Connect.php(237): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:04:36 --> Too many connections
+#0 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#1 /home/fallenxt/public_html/app/Controllers/Connect.php(237): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:04:37 --> Too many connections
+#0 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#1 /home/fallenxt/public_html/app/Controllers/Connect.php(237): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:04:38 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:04:40 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:06:23 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:06:51 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenxt/...', 8, Array)
+#1 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(13): include('/home/fallenxt/...')
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:15:08 --> Too many connections
+#0 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#1 /home/fallenxt/public_html/app/Controllers/Connect.php(237): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:15:13 --> Too many connections
+#0 /home/fallenxt/public_html/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenxt_jangra...', 'fallenxt_jangra...', 'fallenxt_jangra...')
+#1 /home/fallenxt/public_html/app/Controllers/Connect.php(237): include('/home/fallenxt/...')
+#2 /home/fallenxt/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenxt/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenxt/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

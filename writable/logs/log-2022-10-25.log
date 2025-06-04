@@ -1,0 +1,117 @@
+CRITICAL - 2022-10-25 23:19:39 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:40 --> Too many connections
+#0 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(237): include('/home/fallenx1/...')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:43 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:45 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:46 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:47 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:47 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:48 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:48 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:48 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:49 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:49 --> Too many connections
+#0 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(237): include('/home/fallenx1/...')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-25 23:19:49 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/fallenx1/...', 8, Array)
+#1 /home/fallenx1/public_html/Fallenx.in/app/Controllers/conn.php(8): mysqli_connect('localhost', 'fallenx1_jangra', 'fallenx1_jangra', 'fallenx1_jangra')
+#2 /home/fallenx1/public_html/Fallenx.in/app/Controllers/Connect.php(13): include('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/fallenx1/public_html/Fallenx.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fallenx1/public_html/Fallenx.in/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
